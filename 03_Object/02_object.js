@@ -1,0 +1,58 @@
+const tinderUser = new Object() //  it is a singleton object
+const tinderUser2 ={} // it is not a singleton obect
+
+tinderUser.id = "123456"
+tinderUser.name = "Sammy"
+tinderUser.isLoggin = false;
+console.log(tinderUser)
+
+const regularUser ={
+    email : "anurag@gmail.com",
+    fullname :{
+            userfullname:{
+                firstname : "Anurag", 
+                lastname:  "Mishra"
+            }
+    }
+
+}
+console.log(regularUser.fullname)
+console.log("")
+console.log(regularUser.fullname.userfullname)
+
+const obj1 ={ 1:'A',2:"B"}
+const obj2 = {3:"W",4:"R"}
+const obj4 = {5:"a", 6:"b"}
+
+// const obj3 = {obj1, obj2}
+// console.log(obj3)
+// const obj3 = Object.assign({}, obj1,obj2,obj4)
+// console.log(obj3)
+
+const obj3 = {...obj1,...obj2,...obj4}
+console.log(obj3)
+
+//  when value come from databsed
+const users = [
+    {
+        id : 1,
+        email : "Anurag@321"
+
+    }, 
+    {
+        id : 2, 
+        email: "Anurag...@321"
+    }, 
+    {
+        id : 3,
+        email : "am431@google.com"
+    }
+]
+
+users[1].email;
+console.log(tinderUser)
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('isloggin'))
