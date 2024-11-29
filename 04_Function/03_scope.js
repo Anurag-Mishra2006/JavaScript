@@ -15,8 +15,9 @@ if(true ){
 function one(){
     const username= "Anurag"
     function two(){
-        const website   = "youtube"
+        const website   = "   youtube"
         console.log(username)
+        console.log(website);
     }
     
     two();//line by line interpreat
@@ -38,11 +39,14 @@ if(true){
  
 // +++++++++++++ INTERESTING ++++++++++++96
 function addone(nums){
+    //  if we call this function above it . It work 
     return nums +1;
 }
 console.log(addone(5))
 
-const addtwo = function(num){
+const addtwo = function(num){ //expression (varible containing the function)]
+    //  if we give a variable to the function like the just above then if call that variable above the function it throw error 
+
     return num+2;
 
 }
