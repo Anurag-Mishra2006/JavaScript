@@ -41,6 +41,9 @@ chai();
 
 
 //  Implict function 
-const addtwo = (nums1 , nums2) =>  nums1 + nums2;
+const addtwo = (nums1 , nums2) =>  nums1 + nums2; // Jab ek line ka hi code ho 
+const three=()=>({ username:"Anurag"})  // if we want to access the username we have to wrap it into ()
+
 console.log(addtwo(3,7))
 
+console.log(three())
