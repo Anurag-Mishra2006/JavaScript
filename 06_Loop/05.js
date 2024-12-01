@@ -1,3 +1,4 @@
+//  for each 
 const coding =[ " js","cpp","java","Python", "ruby"]
 coding.forEach( function (item){
     console.log(item)
