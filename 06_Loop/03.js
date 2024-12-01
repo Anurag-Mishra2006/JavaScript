@@ -19,7 +19,10 @@ map.set('Fr', "France")
 map.set('IN',"India" )
 console.log(map)
 
-
+//  this will print all value of the map
+for(const key of map){
+    console.log(key);
+}
 
 for(const[ key, value] of map){
     console.log(key,":-", value)
