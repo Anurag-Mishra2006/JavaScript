@@ -4,6 +4,8 @@ const myobj={
     rb : "ruby",
     swift : "swift by apple"
 }
+// for iterating the object we have  for in  loop
+
 
 // accessing keys 
 for (const key in myobj) {
@@ -26,7 +28,7 @@ const programming = [ "js", "rb","py", "java", "cpp"]
 
 for(const key in programming){
     console.log(key);
-}
+} // key of array is number started from 0
 for(const key in programming){
     console.log(programming[key]);
 }
