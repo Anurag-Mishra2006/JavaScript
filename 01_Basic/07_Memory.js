@@ -5,7 +5,7 @@ let anothername = myYo
 console.log(anothername)
 
 //  stack ,me copy milta h 
-anothername = "Mishra ji "
+anothername = "Mishra ji " 
 console.log(myYo) // go to stack 
 console.log(anothername) // go to stack
 
@@ -20,3 +20,4 @@ user2.emial =  "Anurag@gmail.com"
 console.log(user1.emial) // heap me reference milta h
 //  due to reference the change occurs in the original value 
 console.log(user2.emial)
+console.log(user1.upi)

@@ -17,6 +17,7 @@ const outsideTemp = null
 let userEmail;
 const id = Symbol('1230')
 const anotherid = Symbol('1230')
+ 
 console.log(id ===anotherid)
 
 const bigNumber = 3541541364436436436n
@@ -38,6 +39,9 @@ let myObj ={
     name : "Anurag",
     age : 18,
 }
+
+//  We acess the object by the dot operator
+
 const myFunction = function(){
         console.log("Hello World...")
 }
