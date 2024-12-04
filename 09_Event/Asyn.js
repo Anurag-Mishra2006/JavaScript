@@ -8,3 +8,4 @@
 //  Blocking code       VS         Non Blocking code
 // --> block the flow of program   --> doesnt block execution 
 // --> Read file sync              --> read file async
+ 
