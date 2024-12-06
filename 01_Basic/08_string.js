@@ -1,3 +1,4 @@
+// object and array are mutuable
 let name = "Anurag"
 const repoCount = 50
 
