@@ -1,9 +1,19 @@
 // Dates
 
 let myDate = new Date()
-
+//  Date object are not a fundamental type like numbers are 
 console.log(myDate) // 2024-11-26T17:36:33.238Z
 console.log("")
+
+
+var then = new Date(2006 , 0,1) // the 1st day of the 1st month of 2006
+var later = new Date(2006,0,1,17,10,30) // same day , at 5:10:30pm , local time
+var now = new Date();
+var elapsed = now - then;
+console.log("elapsed")
+console.log(elapsed)
+console.log(later.getFullYear()) // give the year 2006 of later
+
 
 console.log(myDate.toString()) //Tue Nov 26 2024 23:06:33 GMT+0530 (India Standard Time)
 
@@ -13,6 +23,11 @@ console.log(myDate.toISOString()) // 2024-11-26T17:36:33.238Z
 
 
 console.log("")
+
+console.log(myDate.toUTCString()) // Fri, 06 Dec 2024 16:13:30 GMT
+
+console.log("")
+
 console.log(myDate.toJSON()) //2024-11-26T17:36:33.238Z
 
 console.log("")
@@ -53,5 +68,6 @@ console.log(newDate.getMonth() +1) // 0 ==> Jan and 11 ==> December  that we add
 
 console.log(newDate.getFullYear())
 
-newDate.toLocaleString('default',{weekday : "long"})
+console.log(newDate.toLocaleString('default',{weekday : "long"}))
+
 
