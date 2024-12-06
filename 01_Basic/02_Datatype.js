@@ -16,7 +16,7 @@ let isLoggedIn = false
 // boolean => true / false
 //  null => stand alone value
 //  undefined => we define the variable but no value is assigned to it
-//  symbol => we usse this to gilve uniqueness
+//  symbol => we use this to give uniqueness
 //  object
 console.log(typeof "mango")
 console.log(typeof null) // null is an object 
