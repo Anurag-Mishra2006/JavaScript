@@ -1,3 +1,6 @@
+// Javascript is case sensitive  but not sensitive to the whitespace or line break
+// javascript run from top to bottom
+
 const accountId = 144553
 let accountEmail  = "am1234@gmail.com" //no problem with scope
 var accountPassword = "12345" //generally we not use var due to lack of scope
