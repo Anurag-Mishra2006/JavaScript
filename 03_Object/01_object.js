@@ -1,19 +1,36 @@
+/**     OVERVIEW
+ *      -->
+ * 
+ */
+
+
 //  literal constructor
+// object are mutable and manipulated by the reference rather than by values
 
-//  Object Literals
 
-const mySym = Symbol("key1")
-const JsUser = {
+/**
+ * Object is an unordered collection of properties, each of which has a name and a value .
+ * --> properties names are string so we can say that object maps string to values
+ */
+/**
+ * javascript objects are dynamic 
+ */
+//  Object Literals --> is a comma-seperated list of colon -separed name : value pairs , enclosed within curly braces
+
+const mySym = Symbol("key1") // symbol is used to give a uniquness
+
+const JsUser = { // here creating the object
     name : "Anurag",
     [mySym]:"My key1",
     age: 18 ,
     "full_name" : "Anurag Mishra", 
-    location : "Jaipur",
+    location : "Varanasi",
     email : "anurag@google.com",
     isLoggedin : true,
     lastLogginDays : ["Monday","Saturday"]
 
 }
+
 //  full name ko dot operator se access nhi kar payege
 console.log(JsUser.email)
 console.log(JsUser["email"])
@@ -33,7 +50,8 @@ JsUser.greeting = function(){
 console.log(JsUser.greeting());
 
 JsUser.greeting2 = function(){
-    console.log(`Hello Js user, ${this.name}`)
+    console.log(`Hello Js user, ${this.name}`) // this is here for the recent object 
+    
 }
 
 console.log(JsUser.greeting2());
