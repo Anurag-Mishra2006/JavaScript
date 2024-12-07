@@ -18,5 +18,17 @@ let isLoggedIn = false
 //  undefined => we define the variable but no value is assigned to it
 //  symbol => we use this to give uniqueness
 //  object
+
+// In Boolean datatype there are some value considered as falsy values
+/**
+ * undefined
+ * null  --> typeof null is object i.e null can be thought of as special object value that indicate "no object".
+ * However null is typically regarded as the sole member of its own type adn it can be used to indicate "no value"
+
+ * 0
+ * -0
+ * NaN
+ * "" (empty string)
+ */
 console.log(typeof "mango")
 console.log(typeof null) // null is an object 
