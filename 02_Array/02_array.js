@@ -1,5 +1,14 @@
+//  In this we are going to learn
+/*          how to concat the two arrays
+            .flat
+            .isArray
+            .from
+            .of
+*/
+
 const marvel_heros = ["Thor","IronMan", "SpiderMan"]
 const dc_heros =["SuperMan", "Flash", "Batman"]
+
 // marvel_heros.push(dc_heros)
 // console.log(marvel_heros) // It append the whole array of dc_heros in to the marvel_heros3
 

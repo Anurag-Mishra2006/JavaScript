@@ -1,5 +1,6 @@
 //  array 
 
+
 /**
     Javascript arrays are resizable 
     can contain mix of different type.
@@ -11,12 +12,31 @@
 
     */ 
 
+   /** OVERVIEW
+    *  -->push 
+    *  -->pop
+    *  -->shift 
+    *  -->unshift
+    *  -->include
+    *  -->indexof
+    *  -->join
+    * -->slice
+    * -->splice
+    */
+
 const myarr = [0,1,2,3,4,5]
 const myheros = ["shaktiman" , "Hulks","Tony Strak"]
 console.log(myheros[1])
 console.log(myarr[4])
 const myArr2 = new Array(1,2,3,5,8)
 console.log(myArr2[2])
+
+/**
+ * The Undefined element can be included in an array literal by simply omitting a value between commas
+ */
+var sparseArray = [1,,,,,5];
+console.log(sparseArray[2]); // this give undefined 
+
 
 //  Do try this --->  go to console --> type const nums = [1,23,4,5] --> After enter type nums --> expand the nums--> You explore the type of prototype
 
@@ -45,9 +65,14 @@ console.log(myarr.indexOf(9))  // if element is not in the array then it give ou
 // otherwise it give the index of the ask element
 console.log(myarr.indexOf(3))
 
+
 console.log("")
-const newarr = myarr.join()
+console.log("----Join------");
+const newarr = myarr.join() // this convert the arr in the string
+
+console.log("my arr")
 console.log(myarr)
+console.log("newarr after using join -----")
 console.log(newarr)
 console.log(typeof newarr)
 
@@ -55,9 +80,13 @@ console.log("")
 console.log("")
 // Slice vs splice
 console.log("A",myarr)
+//  slice give the arr between the given index and the upper limit is not included
+
 const myn1 = myarr.slice(1,3) // 3 is not included
 console.log(myn1)
 console.log("B",myarr)
+//  splice just cut the element of the array within the given index
+//              and also in this upperlimit is included
 const myn2  = myarr.splice(1,3) 
 console.log(myarr) 
 console.log(myn2)
