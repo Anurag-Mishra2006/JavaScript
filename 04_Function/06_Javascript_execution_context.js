@@ -1,9 +1,9 @@
 //  on the brower ka global execution context( this) ==> window
-// js is single threaded 
+
 // -->  global execution context 
 // --> functional execution context
 // --> eval execution context
-
+// js is single threaded 
 
 /**
  * the execution of js code is in the two phase 
