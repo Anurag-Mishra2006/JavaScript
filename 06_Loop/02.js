@@ -10,7 +10,7 @@ while(arr<myArray.length){
     arr++;
 }
 
-let score =1;
+let score =11; //do while run atleast once even after terminating condition
 do{
     console.log(`score is ${score}`);
     score++;

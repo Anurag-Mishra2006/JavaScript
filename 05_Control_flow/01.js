@@ -2,12 +2,12 @@
 // if(condition==true){}
 // compression statement --->   >,< ,<= ,>=, ==,!=, === (it check the type of datatype also)
 
-if("2 "!=3){
+if("2"!=3){
     console.log("true");
 }
 
-if("2 "===2){
-    console.log("true"); //will not run as the datatype is different
+if("2"===2){
+    console.log("true"); // will not run as the datatype is different
 
 }
 else {
@@ -25,8 +25,8 @@ const balance = 1000;
 
 
 if(balance<500){
-    console.log("less than")
-}else if(balance <750) console.log("again less");
+    console.log("less than 500")
+}else if(balance <750) console.log("again less 750");
 else { console.log("Have the specific amount")}
 
 const userLoggedin = true;

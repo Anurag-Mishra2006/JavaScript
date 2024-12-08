@@ -20,9 +20,7 @@ else console.log("Don't have user email")
  * [ ]
  * {}
  * function(){}
- * 
- * 
- * 
+ *  
  */
 const arr = []
 if(arr.length===0)console.log("Array is am empty")
@@ -31,7 +29,6 @@ const emptyObj = {}
 if(Object.keys(emptyObj).length===0) console.log("Object is empty")
 
 /** *   point to remember
-
  * false == 0 ; --> true;
  * false =="" : --> true;
  * 0 == "" ; --> true;
