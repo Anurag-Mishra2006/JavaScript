@@ -1,6 +1,5 @@
 /**     OVERVIEW
- *      -->
- * 
+ *      -->declaration and updation
  */
 
 
@@ -12,9 +11,10 @@
  * Object is an unordered collection of properties, each of which has a name and a value .
  * --> properties names are string so we can say that object maps string to values
  */
-/**
- * javascript objects are dynamic 
- */
+
+// javascript objects are dynamic 
+
+
 //  Object Literals --> is a comma-seperated list of colon -separed name : value pairs , enclosed within curly braces
 
 const mySym = Symbol("key1") // symbol is used to give a uniquness
@@ -44,7 +44,11 @@ JsUser.email = "anurag@microsoft.com"
 
 console.log(JsUser )
 
-JsUser.greeting = function(){
+console.log("-----Method----")
+// Method is a function thet is attached to an object 
+// An object can have properties (values) and method(function)
+JsUser.greeting = function(){ // here you are defining a method greeting for an object JsUser
+     
     console.log("Hello  JS user");
 }
 console.log(JsUser.greeting());
