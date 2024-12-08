@@ -1,5 +1,5 @@
 function calculateCartPrice(val1, val2,...num1){ // ... is called as rest operator as well as seprate operator it depend on where it is used
-
+    //  ... is called rest operator as well as spread operator
     return num1
 }
 //console.log(calculateCartPrice(200,4,500,6)) //now it give me an array of all the argument
@@ -22,7 +22,7 @@ handleObject({
     price:399
 })
 
-const myNewArray= [200,400,486,605,4596]
+const myNewArray= [200,400,486,605,45,96]
 function returnSecondValue(getarray){
     return  getarray[1]
 }

@@ -5,7 +5,7 @@ if(true ){
     let a = 10; // local scope or block scope
     const b = 20;// local scope or block scope
     //  in sabhi ka kaam yahi tak h {} iske bahar nhi ja sakte h 
-    var c = 241; // scope ==.> global
+    var c = 241; // scope ==.> global that why let and const come in the fig
  
 }
 
@@ -15,7 +15,7 @@ if(true ){
 function one(){
     const username= "Anurag"
     function two(){
-        const website   = "   youtube"
+        const website   = "youtube"
         console.log(username)
         console.log(website);
     }
@@ -50,4 +50,4 @@ const addtwo = function(num){ //expression (varible containing the function)]
     return num+2;
 
 }
-addtwo(4)
+addtwo(4) // yaha pe sirf value return hui h

@@ -2,9 +2,9 @@
 const user = {
     username : "Anurag",
     price : 999,
-    //  when we referening the current context then we use this 
+    //  when we referening the current context then we use 'this' 
     welcomeMgs : function(){
-        console.log(`${this.username}  welcome to this site  \n Price of the course is ${this.price}`)
+        console.log(`${this.username}  welcome to this site  \nPrice of the course is ${this.price}`)
     }
 }
 user.welcomeMgs()
@@ -15,7 +15,7 @@ console.log(this) // in node environment it give empty object
 
 // function chai(){
 //     let username = "Anurag Mishra"
-//    // console.log(this)
+//    // console.log(this) // ==> this give an empty {} object in node js environment whereas in brower it give window
 //    console.log(this.username) //undefined
 // }
 
@@ -27,6 +27,7 @@ console.log(this) // in node environment it give empty object
 // }
 // chai();
 
+// arrow function
 const chai = () =>{
     let username = "Anurag "
     console.log(this )
