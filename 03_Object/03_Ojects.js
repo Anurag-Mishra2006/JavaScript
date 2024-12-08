@@ -5,7 +5,10 @@ const course ={
 
 }
 // console.log(course.courseInstructor)
-const {courseInstructor : instructor}= course;  // courseInstructor is given the name instructor
+
+// Destructuring
+const {courseInstructor : instructor}= course;  // courseInstructor is given the name instructor i.e renaming  'courseInstructor' to 'instructor'
+
 
 console.log(instructor) 
 
@@ -13,14 +16,15 @@ console.log(instructor)
 // /////////////      API
 
 // {
-//     //  Json 
+//     //  JSON format(often used in APIs) , but its not actual js code
 //     "name ": "hitesh",
 //     "coursename": "JS in hindi" ,
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+//when the data comes from the database its an array like below:
+// [
+//     {},
+//     {},
+//     {}
+// ]

@@ -1,5 +1,6 @@
 /**     OVERVIEW
  *      -->declaration and updation
+ *      --> introduction to method
  */
 
 
@@ -55,7 +56,8 @@ console.log(JsUser.greeting());
 
 JsUser.greeting2 = function(){
     console.log(`Hello Js user, ${this.name}`) // this is here for the recent object 
-    
+    this.age+=1; // methods allow us to perform actions on the object data without having to manipulate the data directly every time.
+    console.log(this.age);
 }
 
 console.log(JsUser.greeting2());
