@@ -1,3 +1,0 @@
-
-    {
-        itemName: "mobile dev course",
