@@ -13,7 +13,6 @@
     <button onclick="
         playgame('paper')
     ">Paper</button>
-
     
     <button onclick="
         playgame('scissor')
@@ -49,6 +48,9 @@ function playgame(playerMove){
             }
             else if(computerMove==='paper')result = 'Loose';
             else result = 'Win';
+            
+            
+            
             alert(`You picked ${playerMove} and computer picked ${computerMove}\nYou ${result}`)
 
         }

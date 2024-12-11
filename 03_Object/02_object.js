@@ -8,14 +8,19 @@ console.log(tinderUser)
 
 const regularUser ={
     email : "anurag@gmail.com",
-    fullname :{
+    fullname :{ // nested object (object inside the another)
             userfullname:{
                 firstname : "Anurag", 
                 lastname:  "Mishra"
             }
+    },
+    fun : function function1(){ // here fun is method inside the regularUser object
+        // to call this we just have to type ==> regularUser.fun();
+        console.log("function inside object");
     }
 
 }
+console.log(regularUser.fun());
 console.log(regularUser.fullname)
 console.log("")
 console.log(regularUser.fullname.userfullname)
