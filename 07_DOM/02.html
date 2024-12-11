@@ -7,11 +7,11 @@
 </head>
 <body style="background-color: #212121; color: white;">
     <script>
-        const parent = document.querySelector('.parent')
+        const parent = document.querySelector('.parent') // inside the string we define which element we want
         console.log(parent);
         console.log(parent.children) // gives the children of the parent element
-        console.log(parent.children[1].innerHtml);
-
+        console.log(parent.children[1].innerHtml); // this gives the content of the first child of parent element
+        
 
         for(let i =0;i<parent.children.length;i++){
             console.log(parent.children[i].innerHtml);
