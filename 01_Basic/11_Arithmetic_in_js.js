@@ -1,6 +1,6 @@
 //  in addition to those basic arithematic operator JS support more complex mathematical operation through a set of function and constants
 console.log(Math.pow(2,5));
-console.log(Math.round(.6));// round to the nearest interger
+console.log(Math.round(2.6));// round to the nearest interger
 console.log(Math.ceil(.6)); // round to upto an interger
 console.log(Math.floor(.6)); // round down to an interger
 console.log(Math.abs(-90)); // give the absolute value
