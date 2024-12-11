@@ -21,7 +21,7 @@
 const mySym = Symbol("key1") // symbol is used to give a uniquness
 
 const JsUser = { // here creating the object
-    name : "Anurag",
+    name : "Anurag",  // name ==> properties  , "Anurag"==> value
     [mySym]:"My key1",
     age: 18 ,
     "full_name" : "Anurag Mishra", 
