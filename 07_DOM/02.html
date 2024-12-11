@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM | </title>
 </head>
+<!--window object refer to the brower and document object to the element of the brower-->
 <body style="background-color: #212121; color: white;">
     <script>
         const parent = document.querySelector('.parent') // inside the string we define which element we want
         console.log(parent);
         console.log(parent.children) // gives the children of the parent element
         console.log(parent.children[1].innerHtml); // this gives the content of the first child of parent element
-        
+
 
         for(let i =0;i<parent.children.length;i++){
             console.log(parent.children[i].innerHtml);
