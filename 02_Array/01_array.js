@@ -30,6 +30,8 @@ console.log(myheros[1])
 console.log(myarr[4])
 const myArr2 = new Array(1,2,3,5,8)
 console.log(myArr2[2])
+console.log(myarr.isArray([1,2,45,7])); // this check the given in () is an array or not 
+
 
 /**
  * The Undefined element can be included in an array literal by simply omitting a value between commas
