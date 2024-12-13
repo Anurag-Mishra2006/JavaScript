@@ -1,3 +1,7 @@
+/**     OVERVIEW 
+ *      --> while
+ *      --> do while
+*/
 let index= 0;
 while(index <=10){ // as soon the condition true it run else it terminate
     console.log(`Value of index is ${index}`);

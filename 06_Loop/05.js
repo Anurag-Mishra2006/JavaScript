@@ -1,4 +1,9 @@
+/**             OVERVIEW
+ *          --> for each     
+ */
 //  for each --> call back function
+// for each function is most prefered way for iterating in array
+
 const coding =[ " js","cpp","java","Python", "ruby"]
 coding.forEach( function (item){
     console.log(item)

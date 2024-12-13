@@ -38,7 +38,7 @@
         .score{
             margin-top: 60px;
         }
-        .reset-score-btn{
+        .reset-score-btn,.auto-set-btn{
             background-color: white;
             border: none;
             font-size: 15px;
@@ -50,17 +50,11 @@
 <body>
     
     <p class="title">Rock Paper Scissors</p>
-    <button class="move-button" onclick="
-      playGame('rock');
-    "><img src="rock-emoji.png" alt="Rock" class="move-icon" ></button>
+    <button class="move-button  js-rock-button" ><img src="rock-emoji.png" alt="Rock" class="move-icon" ></button>
 
-    <button class="move-button" onclick="
-      playGame('paper');
-    "><img src="paper-emoji.png" alt="Paper" class="move-icon"  ></button>
+    <button class="move-button js-paper-button"><img src="paper-emoji.png" alt="Paper" class="move-icon"  ></button>
 
-    <button class="move-button" onclick="
-      playGame('scissors');
-    "><img src="scissors-emoji.png" alt="Scissor"class="move-icon"></button>
+    <button class="move-button js-scissor-button" ><img src="scissors-emoji.png" alt="Scissor"class="move-icon"></button>
 
     <p class="js-result" class="result"></p>
     <p class="js-moves" >
@@ -79,9 +73,10 @@
       localStorage.removeItem('score');
       updateScoreElement();
     "
-        class="reset-score-btn"
+    class="reset-score-btn"
     >Reset Score</button>
-
+    
+    <button class="auto-set-btn" onclick="autoPlay()">Auto Play</button>
     <script src="game.js">
     </script>
 

@@ -1,3 +1,9 @@
+/**.   OVERVIEW
+ *  --> for each intro
+ *  --> filter
+ *  --> for each left over part
+ */
+
 const coding =[ " js","cpp","java","Python", "ruby"]
 
 const values = coding.forEach((item)=>{
@@ -8,8 +14,20 @@ const values = coding.forEach((item)=>{
 console.log(values);
 
 console.log("-------- Filter ------------");
+//--> This method is particularly useful for selectively extracting items from arrays based on certain criteria without modifying the original array.
 
 const mynums = [1,2,3,4,5,6,7,8,9,10];
+
+console.log(mynums.filter((values,index) =>{
+  return false;
+ })) // if the condition is false this is going to give output []
+  
+
+console.log(mynums.filter((values,index) =>{
+  return true;
+})) // if the condition is true this will give the array
+
+
 // const newNums = mynums.filter((num)=>num>4);
 
 
@@ -20,6 +38,7 @@ const mynums = [1,2,3,4,5,6,7,8,9,10];
 //     return num>4; // due to curly bracket it begin with a scope so we have to use return keyword
 
 // });
+
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
