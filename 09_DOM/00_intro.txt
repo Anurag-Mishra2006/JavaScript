@@ -26,3 +26,25 @@ DOM NAVIGATION = The process of navigating through the structure
 .parentElement
 .children
 
+
+-->creating the new element 
+ const newH3 = document.createElement("h3");
+
+--> Add attributes/properties
+newH3.textContent = "I like Pizza";
+newH3.id = "myh3";
+newH3.style.color = "tomato"
+
+--> append element to DOM
+document.body.append(newH3) ;
+// we can also preappend it
+document.body.prepend(newH3);
+// we can also append our new node into any premade element
+document.getElementById("box2").append(newH3);
+
+// inserting between two boxes
+const box2 = document.getElementById("box2");
+document.body.inserBefore(newH3 , box2);
+
+--> Removing HTML element
+document.body.removeChild(newH3);
