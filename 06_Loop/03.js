@@ -14,13 +14,16 @@ for (const greet of greeting) {
     console.log(`Each char is ${greet}`)
 }
 console.log("-----------  MAP  -------------");
+// map doesnt modified the original array 
 // Map transform an array into another array
 // Map is a callback function
 console.log([1,23,4].map((value,index)=>{  // A function that accepts up to three arguments.
    // return 10; // this replace all the element of this array with 10
     return value+10;  // now this will add +10 to all the element of the array
-    
+
 }))
+
+
 //  Maps --> is known for the unique value and order remain same 
 
 const map = new Map();

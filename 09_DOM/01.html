@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Learning</title>
-    <style>
+    <!-- <style>
       body {
         background-color: rgb(30, 28, 28);
         color: aliceblue;
       }
-    </style>
+    </style> -->
   </head>
   <body>
     <div class="bg-black">
-      <h1 id="title" class="heading">DOM learning on Chai aur Code</h1>
+      <h1 id="title" class="heading">DOM learning </h1>
       <h2>Lorem ipsum dolor sit amet.</h2>
       <h2>Lorem ipsum dolor sit amet.</h2>
       <h2>Lorem ipsum dolor sit amet.</h2>
@@ -27,10 +27,14 @@
     </div>
   </body>
   <script>
+    // changing the title using js
     document.title = "Good Job !";
     console.log(document.body); // this html is now converted into object
     console.log(typeof document.body); // object
     // document.body.innerHTML = "<button>Good Job! </button>" ;// THIS CODE REPLACE ALL THE HTML INSIDE THE BODY WITH NEW HTML
     
+    // we can also change the style using js-.> dom
+    document.body.style.backgroundColor = "rgb(30, 28, 28)";
+    document.body.style.color = 'white';
   </script>
 </html>

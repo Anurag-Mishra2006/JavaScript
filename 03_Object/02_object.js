@@ -39,6 +39,8 @@ const obj3 = {...obj1,...obj2,...obj4}
 console.log(obj3)
 
 //  when value come from databsed
+// array of objects
+
 const users = [
     {
         id : 1,

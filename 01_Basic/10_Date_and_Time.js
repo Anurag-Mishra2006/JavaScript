@@ -1,4 +1,5 @@
 // Dates
+//  Date(year , month , day , hour ,minute , second,ms)
 
 let myDate = new Date()
 //  Date object are not a fundamental type like numbers are 

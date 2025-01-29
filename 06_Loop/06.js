@@ -16,6 +16,8 @@ console.log(values);
 console.log("-------- Filter ------------");
 //--> This method is particularly useful for selectively extracting items from arrays based on certain criteria without modifying the original array.
 
+// array.filter(callback(element, index, array), thisArg)
+
 const mynums = [1,2,3,4,5,6,7,8,9,10];
 
 console.log(mynums.filter((values,index) =>{
